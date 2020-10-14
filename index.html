@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Todo</title>
+</head>
+
+<body>
+  <div>
+    <h1>TODO</h1>
+  </div>
+
+  <div id="todo-form">
+    <div id="todo-pagination"> </div>
+
+    <div id="input-buttons">
+      <input class = "elements-work-with-tasks" type="button" id="button-all-check" value="All">
+      <input type="text" id="todo-input" autofocus>
+      <input type="button" id="button-add" value="Add">
+    </div>
+
+      <ul id="todo-list"> </ul>
+
+    <div class="buttons-bottom">
+      <label class = "elements-work-with-tasks" id="count-todo"> </label>
+      <input type="button" class = "elements-work-with-tasks" id="button-del-completed" value="delete completed">
+      <input type="button" class="tabs-todo active elements-work-with-tasks" id="button-all" value="all">
+      <input type="button" class="tabs-todo elements-work-with-tasks" id="button-completed" value="completed">
+      <input type="button" class="tabs-todo elements-work-with-tasks" id="button-uncompleted" value="uncompleted">
+    </div>
+  </div>
+
+  <script src="lodash.js"></script>
+  <script src="jquery-3.5.1.min.js"></script>
+  <script src="todo.js"></script>
+
+</body>
+</html>
